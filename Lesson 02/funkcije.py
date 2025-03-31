@@ -5,4 +5,5 @@ def zbir(a, b=2, c=4):      #ako ne predamo b bice 2
     
     return s
 
-print(zbir(10,6))
+print(zbir(1))
+

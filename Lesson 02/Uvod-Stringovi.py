@@ -8,7 +8,7 @@ print(a, b)
 #Na kolokvijumu: da nam neki string ---> nagadjaj sta ce da bude odstampano, nesto ovakvog tipa (indexiranje stringova)
 print(a[0])     #odstampace se prvo slovo
 print(type(a[0]))   #type(a[0]) - odredjuje koji je tip prvi karakter (int/string...)
-print(a(1))     #stampa drugo slovo (y)
+print(a[1])     #stampa drugo slovo (y)
 
 print(a[-1])    #stampa poslednji karakter stringa
 print(a[-2])    #stampa drugi karakter stringa od pozadi
@@ -64,7 +64,7 @@ print(a.count("ra", 5, 10))     #--||--  poceci od 5. kar do 10.
 
 #na testu ne dobijamo opcije da nam samo pokaze ovo capitalize ili count npr.
 
-print(a.find("ra"))     #na kojoj poz se javlja ra
+print(a.find("ra"))     #na kojoj poz se javlja ra - pronadje samo prvo pojavljivanje
 print(a.find("ra", 5, 8))
 
 print(a.rfind("ra"))    #index poslednjeg pojavljivanja

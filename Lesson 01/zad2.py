@@ -4,7 +4,7 @@ Napisi program koji ce da nam kaze koliko ce riba da bude za nekoliko godina.
 '''
 
 s = int(input("Pocetni broj riba:"))
-g = int(input("Broj goina:"))
+g = int(input("Broj godina:"))
 
 i = 0
 while i < g:
