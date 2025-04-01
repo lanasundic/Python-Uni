@@ -5,4 +5,4 @@ for c in s:
     if c.isdigit():     #ako je karakter broj
         t += str((int(c) + 1) % 10)     #3 + 1 % 10...
 
-print(t)    # A b c 4 D E f 0 3 g h l 0 9
+print(t)    # Abc34DEf0123ghl9089

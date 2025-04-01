@@ -5,5 +5,5 @@ for e in a:
         b.append(e) #onda na skup b dodaj taj broj
     b.append(e) #opet dodaj u skup taj broj??? 
 
-print(b) # stampa se [1, 3]
+print(b) # stampa se [1, 1, 2, 3, 3, 4]
 
