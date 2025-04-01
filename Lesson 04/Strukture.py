@@ -48,7 +48,7 @@ print(b)    #listu pretvaramo u torku- to moze isto
 imenik = {"Marko": "069595131", "Marija": "098755765", "Ivan":"83738827383"}
 
 print(imenik["Ivan"])   #stampa ivanov broj telefona
-imenik["Ivan"] = "06272662" #ako zelimom da mu promijenimo broj tel
+imenik["Ivan"] = "06272662" #ako zelimo da mu promijenimo broj tel
 print(imenik)
 
 #mozemo i da dodamo novi element
