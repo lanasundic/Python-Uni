@@ -21,7 +21,7 @@ s4 = set([2, 4, 6, 8 ,10])
 
 #operacije sa skupovima:
 print(s1 & s4)  #presjek 2 skupa (zajednicki elementi)
-print(s1 | s4)  #unija (svi elementi)
+print(s1 | s4)  #unija (svi elementi) - od najmanjeg ka najveceg
 print(s1 ^ s4)  #simetricna razlika, kao unija pa minus presjek {3, 5, 8, 10} - se dobije
                 #svi koji nisu zajednicki
 
