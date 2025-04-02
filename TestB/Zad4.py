@@ -9,4 +9,4 @@ while t >= e:
     j += 1  #j = 2  #j = 3
     t = i / (j ** 2) #t = 0.75  t = 0.55 ~ 0.5
 
-print(s)    #stampa - 2.25
+print(s)    #stampa - 2.30
