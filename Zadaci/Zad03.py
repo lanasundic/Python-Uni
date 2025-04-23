@@ -1,0 +1,1 @@
+#napisati kod koji provjerava da li je uneseni string s oblika a^2n-b^n.
