@@ -6,4 +6,3 @@ if tekst == tekst[::-1]:
     print("Uneseni string je palindrom.")
 else:
     print("Uneseni string nije palindrom.")
-

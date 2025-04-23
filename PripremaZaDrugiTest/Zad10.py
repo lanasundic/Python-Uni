@@ -9,3 +9,4 @@ for karakter in string:
     else:
         brojac[karakter] = 1
 
+print(brojac)

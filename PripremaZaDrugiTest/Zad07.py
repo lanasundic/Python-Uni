@@ -13,9 +13,14 @@ Napomena:
 
 giga = int(input("Unesite velicinu fajla u gigabajtima: "))
 
-#pretvorimo prvo u megabajtove
-mbit = giga * 1024
+# giga_u_sec = 100 / 8 / 1024
 
-vrijemePrenosa = mbit / 100
+# print(giga/giga_u_sec)
+
+
+#pretvorimo prvo u megabite
+mega = giga * 1024 * 8
+
+vrijemePrenosa = mega / 100
 
 print(vrijemePrenosa)
